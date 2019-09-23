@@ -1,0 +1,13 @@
+package: github.com/UserManagementSystem
+import: 
+- package: "go.mongodb.org/mongo-driver/mongo"
+- package: "github.com/golang/glog"
+- package: "github.com/labstack/echo"
+  version: b338075a0fc6e1a0683dbf03d09b4957a289e26f
+  subpackages:
+    - middleware
+- package: "github.com/BurntSushi/toml"
+testImport:
+  - package: "github.com/onsi/ginkgo"
+  - package: "github.com/onsi/gomega"
+

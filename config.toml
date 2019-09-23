@@ -1,0 +1,4 @@
+[database]
+server = "mongodb://localhost"
+port = "27017"
+

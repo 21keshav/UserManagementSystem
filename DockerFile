@@ -1,0 +1,4 @@
+From golfing:1.10-apline3.7
+ADD config.toml config.toml
+ADD SampleBackendProgram SampleBackendProgram
+CMD ["bin/sh","-c" "exec ./SampleBackendProgram"]
